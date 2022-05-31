@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
+   <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Bootstrap CSS -->
@@ -14,6 +14,9 @@
       <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="script.js"></script>
+
+    <!-- title bar -->
+    <link rel="icon" href="img/icon1.png" type="image/x-icon">
     
 
     <!-- My CSS -->
@@ -22,7 +25,7 @@
     
   <body id="home">
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#">Rias Rasyid</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -270,7 +273,7 @@
             //tampilkan alert
             myAlert.classList.toggle("d-none");
             //reset form nya
-            form.reset();
+          form.reset();
             console.log("Success!", response);
           })
           .catch((error) => console.error("Error!", error.message));
